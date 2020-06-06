@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planetarium</title>
+    <!-- Bootstrap css -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/custom.css">
+    <!-- threejs -->
+    <script src="./libs/three/three.js"></script>
+</head>
+
+<body>
+    <div id="planets">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
+            <a class="navbar-brand" href="#"><img src="./assets/images/logo_transparent.png" alt="logo" height="70"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mercury</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Venus</a>
+                    </li>
+                    <li class="nav-item earth-link active">
+                        <a class="nav-link text-center" href="#">Earth</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Mars</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Jupiter</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Saturn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Uranus</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Neptune</a>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+        </nav>
+        <!-- <hr> -->
+        <div id="description" class="container">
+            <h5 class="text-center text-white">Planet</h5>
+            <h1 id="planetName" class="text-center text-white">EARTH</h1>
+            <hr class="short-hr">
+            <p id="planetDescription" class="story text-center text-white fade-in">The Earth is the only planet known where life
+                exists. Almost 1.5 million species of animals and plants have been discovered so far, and many more have
+                yet to be found. While other planets may have small amounts of ice or steam, the Earth is 2/3 water.
+                Earth has perfect conditions for a breathable atmosphere.
+                Earth is the largest of the terrestrial planets and the fifth largest in the solar system. It is
+                believed to be about 4.5 billion years old, which makes it very young compared to other celestial
+                bodies!</p>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="./assets/js/jquery-3.5.0.js"></script>
+    <!-- Bootstrap js -->
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <!-- Custom js -->
+    <script src="./assets/js/custom.js"></script>
+    <script src="./assets/js/earth.js"></script>
+</body>
+
+</html>
